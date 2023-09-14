@@ -24,7 +24,7 @@ export default function Home() {
               <p className="text-zinc-500">Your personal Stoic Hub homepage. Come here to check in with your favorite communities.</p>
             </div>
 
-            <Link className={buttonVariants({className:'w-full mt-4 mb-6'})} href='/s/create'>
+            <Link className={buttonVariants({ variant: "slight", className: 'w-full mt-4 mb-6' })} href='/s/create'>
               Create Community
             </Link>
           </div>
