@@ -85,9 +85,9 @@ const Layout = async ({
                                 </div>
                             ): null}
 
-                            {subreddit.creatorId !== session?.user?.id ? (
+{/*                             {subreddit.creatorId !== session?.user?.id ? (
                                 <SubscribeLeaveToggle />
-                            ) : null}
+                            ) : null} */}
                         </dl>
                     </div>
                 </div>
